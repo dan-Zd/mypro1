@@ -1,0 +1,68 @@
+body{
+	font:12px arial;
+}
+/*头部*/
+header{
+	overflow: hidden;
+	position:relative;
+	height:40px;
+}
+header nav{
+	width:400px;
+	position:absolute;
+	top:10px;
+	right:0px;
+}
+header nav a{
+	margin-left: 15px;
+	font-weight: bold;
+	color:#000;
+}
+.more{
+
+	display:block;
+	line-height: 33px;
+    padding-left: 8px;
+	width: 60px;
+    height: 33px;
+    background-color:#3385ff;
+	color:#fff;
+	font-weight: normal;
+	text-decoration:none;
+	position:absolute;
+	top:-8px;
+	right:0px;
+}
+
+/*主体部分*/
+.content{
+	text-align: center;
+}
+.content img{
+	width:270px;
+	height:129px;
+}
+.text{
+	width:450px;
+	height:34px;
+
+}
+.sub{
+	width:100px;
+	height:36px;
+	background-color:#3385ff;
+	color:#fff;
+	border:1px solid #3385ff ;
+}
+/*底部*/
+footer{
+   padding-top: 90px;
+   color:#999;
+}
+.footer{
+	text-align: center;
+	padding-bottom: 5px;
+}
+.footer a{
+	color:#999;;
+}
